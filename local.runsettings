@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <!-- Path to Test Adapters Use for mstest v2 set assembly to copy always-->
+  <TestAdaptersPaths>.\</TestAdaptersPaths>
+  <MSTest>
+    <Parallelize>
+      <Workers>3</Workers> <!-- level of parallelism-->
+      <Scope>ClassLevel</Scope> <!-- scope of parallelism-->
+    </Parallelize>
+  </MSTest>
+</RunSettings>
